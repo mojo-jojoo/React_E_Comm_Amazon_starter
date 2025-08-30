@@ -31,7 +31,7 @@ const Products = ({ items }) => {
                 </Link>
                 <div className="card-body text-center">
                   <h5 className="card-title">{product.title}</h5>
-                  <p className="product-price">{product.price} ₹</p>
+                  <p className="product-price">{product.price} $</p>
                   <div className="button-container">
                     <button
                       onClick={() =>

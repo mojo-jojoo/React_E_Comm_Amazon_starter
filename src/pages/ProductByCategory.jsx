@@ -3,8 +3,8 @@ import VideoPlayer from "../components/VideoPlayer";
 import Products from "../components/Products";
 import { useParams } from "react-router";
 
-import { Videos } from "../context/data";
-import { items } from "../context/data";
+import { Videos } from "../context/Data.js";
+import { items } from "../context/Data.js";
 
 const ProductByCategory = () => {
   const { cat } = useParams();
